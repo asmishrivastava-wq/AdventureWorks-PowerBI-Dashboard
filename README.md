@@ -1,117 +1,56 @@
 # Adventure Works Power BI Dashboard
 
-## Project Overview
+An interactive, multi-page Power BI report built on the Microsoft Adventure Works dataset, analysing sales performance, customer behaviour, product performance, returns and regional trends.
 
-This project was developed during my Power BI training at CRISP, Bhopal using the Microsoft Adventure Works sample dataset.
-
-The objective was to analyse sales performance, customer behaviour, product performance, returns, and regional trends through interactive dashboards.
+**Tools:** Power BI · Power Query · DAX · Excel
 
 ---
 
-## Tools Used
+## Dashboard Preview
 
-- Microsoft Power BI
-- Power Query
-- DAX
-- Microsoft Excel
+### Executive Dashboard
+Revenue, Orders, Profit, Return Rate, monthly performance and top products.
 
----
+![Executive Dashboard](Executive%20Dashboard.png)
 
-## Dataset
+### Customer Dashboard
+Customer analysis, segmentation, purchase behaviour and customer metrics.
 
-The project includes multiple related tables:
+![Customer Dashboard](Customer%20Dashboard.png)
 
-- Customer Lookup
-- Product Lookup
-- Product Category
-- Product Subcategory
-- Product Category Sales
-- Returns Data
-- Rolling Calendar
-- Sales Data
-- Territory Lookup
+### Product Dashboard
+Product performance, category analysis, product comparison and sales trends.
+
+![Product Dashboard](Product%20Dashboard.png)
+
+### Map View
+Regional sales performance using geographic visualisation.
+
+![Map View](Map%20View.png)
+
+### Key Influencers
+Power BI AI visuals identifying the factors that drive sales performance.
+
+![Key Influencers](Key%20Influencer%20.png)
 
 ---
 
 ## Data Model
 
-The dashboard uses relationships between multiple lookup and fact tables.
+A star-schema model built from nine related lookup and fact tables:
 
-Additional tables created:
+Customer Lookup · Product Lookup · Product Category · Product Subcategory · Product Category Sales · Returns Data · Rolling Calendar · Sales Data · Territory Lookup
 
-- Measure Table
-- Customer Metric Section
-- Product Metric Section
-- Metric Section
-- Price Adjustment Parameter
-
----
-
-## Dashboard Pages
-
-### Executive Dashboard
-
-Provides an overview of:
-
-- Revenue
-- Orders
-- Profit
-- Return Rate
-- Monthly Performance
-- Top Products
-
----
-
-### Customer Detail
-
-Includes:
-
-- Customer Analysis
-- Customer Segmentation
-- Purchase Behaviour
-- Customer Metrics
-
----
-
-### Product Dashboard
-
-Includes:
-
-- Product Performance
-- Category Analysis
-- Product Comparison
-- Sales Trends
-
----
-
-### Map View
-
-Displays regional sales performance using geographic visualisation.
-
----
-
-### Key Influencers
-
-Uses Power BI AI visuals to identify factors influencing sales performance.
+Supporting tables created in the model: Measure Table · Customer Metric Section · Product Metric Section · Metric Section · Price Adjustment Parameter
 
 ---
 
 ## Skills Demonstrated
 
-- Data Modelling
-- Power Query
-- DAX Measures
-- Interactive Dashboards
-- KPI Design
-- Slicers
-- Drill Through
-- Tooltips
-- AI Visuals
-- Geographic Analysis
+`Data Modelling` `Power Query` `DAX Measures` `Interactive Dashboards` `KPI Design` `Slicers` `Drill Through` `Tooltips` `AI Visuals` `Geographic Analysis`
 
 ---
 
-## Learning Project
+## About this project
 
-This dashboard was completed as part of my Power BI training at CRISP, Bhopal using the Adventure Works practice dataset.
-Interactive Power BI dashboard built during Power BI training at CRISP, Bhopal, using the Adventure Works sample dataset.
+Built using the Adventure Works sample dataset during Power BI training at CRISP, Bhopal. The `.pbix` file and all source tables are included in this repository.
